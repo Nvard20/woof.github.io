@@ -8,9 +8,8 @@
 
 .main{
     width: 100%;
-    max-width: 1200px;
 	margin:auto;
-
+max-width: 1200px;
 }
 
 .main-container{
@@ -52,7 +51,7 @@ margin: auto;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 1188px;
+    max-width: 1188px;
     margin: auto;
 
 }
@@ -166,7 +165,7 @@ text-align: center;
 
 }
 .box {
-    width: 346px;
+    max-width: 346px;
     margin: 0 52.5px;
 }
 .all-box{
@@ -205,7 +204,7 @@ padding-top: 73px;
 padding-bottom: 51px;
 }
 .sl-img{
-    width: 1050px;
+    max-width: 1050px;
     height: 466px;
     margin: auto;
 
@@ -305,7 +304,7 @@ color: #000000;
     color: #FFFFFF;
 }
 .midle-text {
-    width: 678px;
+    max-width: 678px;
     margin: auto;
     padding-top: 65px;
     padding-bottom: 71px;
@@ -379,7 +378,7 @@ color: #000000;
     height: 794px;
 }
 .review-box{
-    width: 508px;
+    max-width: 508px;
 height: 352px;
 border-radius: 14px;
 margin: 0 23px;
@@ -506,7 +505,7 @@ color: #FFFFFF;
     display: -ms-flexbox;
     display: flex;
     margin: auto;
-    width: 1107px;
+    max-width: 1107px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -599,7 +598,7 @@ margin: auto;
         flex-wrap: wrap;
 }
 .serve{
-    width: 484px;
+    max-width: 484px;
 height: 253px;
 background: #FFFFFF;
 padding: 44px 67px;
@@ -672,7 +671,7 @@ padding-bottom: 60px;
 .request{
     background: #FFFFFF;
 border-radius: 15px;
-width: 602px;
+max-width: 602px;
 margin: auto;
 
 }
