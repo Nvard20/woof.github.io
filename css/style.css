@@ -8,6 +8,7 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+@media(min-width: 320px){
 .main{
     width: 100%;
     min-width: 1200px;
@@ -920,4 +921,5 @@ color: #FFFFFF;
 .ft{
     margin-top: 35px;
 
+}
 }
