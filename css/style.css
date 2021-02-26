@@ -11,9 +11,11 @@
 
 .main{
     width: 100%;
-    min-width: 1200px;
-    
+    max-width: 1200px;
+	margin:auto;
+
 }
+
 .main-container{
     width: 100%;
   
@@ -22,7 +24,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1920px;
     margin: auto
 }
 .in-cont{
@@ -42,7 +43,7 @@ margin: auto;
     position: absolute;
     top: 51px;
     z-index: 99;
-    width: 100%;
+  /*  width: 100%;*/
 }
 .hidder-inner{
     display: -webkit-box;
@@ -289,7 +290,6 @@ color: #000000;
 }
 .midle-container{
     width: 100%;
-    max-width: 1920px;
     background-image: url(../img/wood.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -323,7 +323,6 @@ color: #000000;
 }
 .about-container{
     width: 100%;
-    max-width: 1920px;
     margin: auto;
     position: relative;
 
@@ -419,7 +418,6 @@ color: #000000;
 .review-content{
     background: #FFDFC2;
     width: 100%;
-    max-width: 1920px;
     margin: auto;
     padding: 2px;
     padding-bottom: 61px;
@@ -465,7 +463,6 @@ background: #A7652C !important;
 }
 .scheme-container{
     width: 100%;
-    max-width: 1920px;
     background-image: url(../img/rr.jpg);
     background-position: center center;
     background-size: cover;
@@ -576,7 +573,6 @@ position: relative;
 .all-services{
     background: #F5F5F5;
     width: 100%;
-    max-width: 1920px;
     padding-bottom: 58px;
 margin: auto;
 }
@@ -658,7 +654,6 @@ margin-top: 10px;
 }
 .request-container{
     width: 100%;
-    max-width: 1920px;
     margin: auto;
     background-image: url(../img/fon.jpg);
     background-repeat: no-repeat;
@@ -922,5 +917,3 @@ color: #FFFFFF;
     margin-top: 35px;
 
 }
-
-
