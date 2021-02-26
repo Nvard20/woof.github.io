@@ -10,9 +10,9 @@
 }
 
 .main{
-    width: 1200px;
-        
-
+    width: 100%;
+    min-width: 1200px;
+    
 }
 .main-container{
     width: 100%;
