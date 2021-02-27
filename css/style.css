@@ -3,16 +3,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-.main{
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* .main{
     width: 100%;
     min-width: 1200px;
     
-}
+} */
 .main-container{
     width: 100%;
-  
     background: url(../img/cover.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -55,6 +58,8 @@ margin: auto;
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+    white-space: nowrap;
+
 }
 .layer-text > h1 {
     font-family: Merriweather;
@@ -105,11 +110,11 @@ margin: auto;
     height: 30.75px;
     width: 23.38px;
     margin: auto;
-    margin-top: 105px;
+    padding-top: 105px;
 
 }
 .arrow > img {
-    height: 100%;
+    width: 100%;
     margin: auto;
 }
 .content-box{
@@ -205,7 +210,7 @@ padding-bottom: 51px;
 } */
 .slide-content{
     width: 1050px;
-    /* padding: 146px; */
+    height: 146px;
     background-color: white;
     margin: auto;
 
@@ -271,6 +276,7 @@ color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 315px;
     margin: auto;
 }
 .midle-text > p {
@@ -346,6 +352,7 @@ color: #000000;
     background-image: url(../img/img.png);
     background-repeat: no-repeat;
     background-size: contain;
+    height: 794px;
 }
 .review-box{
     width: 508px;
@@ -827,5 +834,62 @@ color: #FFFFFF;
 }
 .ft{
     margin-top: 35px;
+
+}
+/* @media (max-width: 1200px){
+    .hidder-inner{
+        width: 800px;
+    }
+   
+}
+@media (max-width: 800px){
+    .layer-text > h1{
+        font-size: 30px;
+
+    }
+    .layer-text > p{
+        font-size: 16px;
+
+    }
+    .number
+    {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+    }
+    .logo{
+    
+    text-decoration: none;
+    width: 95.22px;
+    }
+}
+@media (max-width: 520px){
+    .hidder-inner{
+        width: 320px;
+    }
+    .number
+    {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+    }
+    .logo{
+    
+    text-decoration: none;
+    width: 95.22px;
+    }
+   
+} */
+header{
+    background: red;
+}
+.header{
+    min-width: 1200px;
+
+}
+.main-container{
+    min-width: 1200px;
 
 }
